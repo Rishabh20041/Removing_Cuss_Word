@@ -1,6 +1,6 @@
 import tkinter as tk
 import re
-cuss_words = ['Fuck off', 'piss off','Bugger off','Bloody hell','Bastard',' Motherfucker','Son of a bitch','Asshole']  
+cuss_words = ['cuss1','cuss2','cuss3']  
 def censor_cuss_words():
     text = input_text.get("1.0", tk.END)
     for word in cuss_words:
